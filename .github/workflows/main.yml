@@ -24,7 +24,6 @@ jobs:
       with:
         files: "mml-solutions.pdf"
         automatic_release_tag: "latest"
-        title: ${{ github.sha }}
         repo_token: ${{ secrets.GITHUB_TOKEN }}
         prerelease: false
 
