@@ -3,6 +3,9 @@
   [#pagebreak()]
 }
 
+#set math.mat(delim: "[")
+#set math.vec(delim: "[")
+
 #include_with_page_break("chapters/00-title.typ")
 
 #set heading(numbering: "1.1")

@@ -1,5 +1,5 @@
 #heading(outlined: false)[
-  Solution to Mathematics for Machine Learning
+  Notes & Solutions: Mathematics for Machine Learning
 ]
 
 Sayan Goswami
