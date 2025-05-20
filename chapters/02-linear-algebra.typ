@@ -29,4 +29,16 @@ $
   x in RR^4 : x = vec(42, 8, 0, 0) + lambda_1 vec(8, 2, -1, 0) + lambda_2 vec(-4, 12, 0, -1); lambda_1, lambda_2 in RR
 $
 
+=== REF & RREF
+
+REF stands for Row Echelon Form
+- All 0 rows are at the bottom.
+- Pivot element of each row is to right of the pivot element of the previous row.
+
+RREF stands for Reduced Row Echelon Form
+- Matrix is REF.
+- All pivot elements are 1.
+- Pivot is the only non-zero element in its column.
+- Gaussian elimination: linear equation $->$ RREF.
+
 == Solutions
