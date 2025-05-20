@@ -1,4 +1,6 @@
-= Solution to Mathematics for Machine Learning
+#heading(outlined: false)[
+  Solution to Mathematics for Machine Learning
+]
 
 Sayan Goswami
 
@@ -11,4 +13,12 @@ Sayan Goswami
       )
     ]
   ]
+)
+
+#pagebreak()
+
+#outline(
+  title: box(
+    text(size: 0.85em)[Contents]
+  )
 )
