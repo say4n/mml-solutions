@@ -41,4 +41,40 @@ RREF stands for Reduced Row Echelon Form
 - Pivot is the only non-zero element in its column.
 - Gaussian elimination: linear equation $->$ RREF.
 
+=== Inverse
+
+$ bold(A A^(-1) = I_n); bold(A) in RR^(n times n) $
+
+=== Solving Linear Equations with Inverse
+
+If $bold(A) in RR^(n times n)$ then, $bold(A x = b => x = A^(-1) b)$. If however $bold(A) in RR^(m times n)$, then $bold(A^top A x = A^top b => x = (A^top A)^(-1) A^top b)$.
+
+The term $bold((A^top A)^(-1) A^top)$ is termed the Moore-Penrose pseudo-inverse.
+
+=== Groups
+
+Set of elements and an operation $G = (cal(G), compose)$ that satisfy:
+- Closure: $a, b in cal(G) => a compose b in cal(G)$.
+- Associativity: $a, b, c in cal(G) => (a compose b) compose c = a compose (b compose c)$.
+- Neutral element: $e, a in cal(G) => e compose a = a compose e = a$.
+- Inverse element: $a in cal(G) => a^(-1) in cal(G)$ such that $a compose a^(-1) = e$.
+
+Abelian groups additionally satisfy: $a, b in cal(G)$ such that $a compose b = b compose a$, essentially commutative.
+
+=== Vector Spaces
+
+Set of elements $cal(V)$, an inner operation #sym.plus and an outer operation #sym.dot ($plus : cal(V) times cal(V) -> cal(V)$ and $dot : RR times cal(V) -> cal(V)$), $V = (cal(V), plus, dot)$ that satisfy:
+- $(cal(V), plus)$ is an Abelian group.
+- $a, b in RR, bold(x), bold(y) in cal(V)$
+- Distributive property: 
+ - $a dot (bold(x) plus bold(y)) = a dot bold(x) plus a dot bold(y)$.
+ - $(a + b) dot bold(x) = a dot bold(x) plus b dot bold(x)$.
+- Associativity (outer operation): $a dot (b dot bold(x)) = (a b) dot bold(x)$.
+- Neutral element (outer operation): $1 dot bold(x) = bold(x)$.
+
+Any such $bold(x) in cal(V)$ is a vector. 
+If $bold(x), bold(y) in RR^(n times 1)$ then, inner product is $bold(x)^top bold(y) in RR$ and outer product is $bold(x) bold(y)^top in RR^(n times n)$.
+
+Vector subspaces are subsets of vector spaces such that both inner and outer operations map back to the vector subspace.
+
 == Solutions
